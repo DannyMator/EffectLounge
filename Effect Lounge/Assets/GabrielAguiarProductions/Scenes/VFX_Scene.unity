@@ -173,10 +173,10 @@ MonoBehaviour:
   m_PointlightHDType: 0
   m_SpotLightShape: 0
   m_AreaLightShape: 0
-  m_Intensity: 1200
+  m_Intensity: 800
   m_EnableSpotReflector: 0
   m_LuxAtDistance: 1
-  m_InnerSpotPercent: 0
+  m_InnerSpotPercent: 100
   m_LightDimmer: 1
   m_VolumetricDimmer: 1
   m_LightUnit: 0
@@ -275,9 +275,9 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 0.94918805, b: 0.8392157, a: 1}
-  m_Intensity: 95.492966
+  m_Intensity: 63.661976
   m_Range: 10
-  m_SpotAngle: 179
+  m_SpotAngle: 170
   m_InnerSpotAngle: 1
   m_CookieSize: 10
   m_Shadows:
@@ -320,7 +320,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 4e-45, y: 1.5e-44, z: 2.3351e-41, w: 3.4122415e-25}
+  m_BoundingSphereOverride: {x: 0, y: 3.1288e-41, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -1358,6 +1358,75 @@ Light:
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!1001 &1660366056978841271
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 572935658045760647, guid: 2d1468456b1334b48acb81ff3cd9320d,
+        type: 3}
+      propertyPath: m_Name
+      value: VFX_Projectile_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 6529844703773567752, guid: 2d1468456b1334b48acb81ff3cd9320d,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6529844703773567752, guid: 2d1468456b1334b48acb81ff3cd9320d,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6529844703773567752, guid: 2d1468456b1334b48acb81ff3cd9320d,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6529844703773567752, guid: 2d1468456b1334b48acb81ff3cd9320d,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6529844703773567752, guid: 2d1468456b1334b48acb81ff3cd9320d,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6529844703773567752, guid: 2d1468456b1334b48acb81ff3cd9320d,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6529844703773567752, guid: 2d1468456b1334b48acb81ff3cd9320d,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6529844703773567752, guid: 2d1468456b1334b48acb81ff3cd9320d,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6529844703773567752, guid: 2d1468456b1334b48acb81ff3cd9320d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6529844703773567752, guid: 2d1468456b1334b48acb81ff3cd9320d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6529844703773567752, guid: 2d1468456b1334b48acb81ff3cd9320d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2d1468456b1334b48acb81ff3cd9320d, type: 3}
 --- !u!1001 &6762827975679807346
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1424,6 +1493,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: VFX_AoE_Fire_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 9077237344279454682, guid: d9644d898b2574c4d89dc89d7ce5e086,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d9644d898b2574c4d89dc89d7ce5e086, type: 3}
@@ -1494,6 +1568,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: VFX_AoE_Nature_01
       objectReference: {fileID: 0}
+    - target: {fileID: 1328652298522440715, guid: 78a00317ca636b94399f9c1344c166d5,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 78a00317ca636b94399f9c1344c166d5, type: 3}
 --- !u!1001 &8470130332224439374
@@ -1562,6 +1641,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: VFX_AoE_Arcane_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 3801680177936960946, guid: e5595be4f0f57b64f823d3e27a3ae19e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e5595be4f0f57b64f823d3e27a3ae19e, type: 3}
